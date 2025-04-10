@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #003366; /* Cor de fundo azul */
+  color: #ffffff; /* Cor da fonte do menu lateral */
+  width: 300px; /* Largura do menu lateral */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinha as opções no topo */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 25px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  font-size: 34px; /* Tamanho da fonte */
+  color: white; /* Cor do texto */
+  transition: background-color 0.3s ease; /* Transição suave */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+.sidebar li:hover {
+  background-color: #7b9b87;
+}
+
+.sidebar a {
+  color: #ffffff; /* Cor da fonte do Link dentro do menu */
+  text-decoration: none; /* Remover sublinhado dos Links */
+}
+
+.sidebar a:hover {
+  color: #ffcc00; /* Cor da fonte ao passar o mouse sobre o Link */
+}
+
+
+.content {
+  background-color: #f0f0f0;
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Centraliza o texto dentro da área de conteúdo */
+  flex-direction: column; /* Empilha os elementos */
+  font-size: 28px;
+}
+
+h1 {
+  color: #003366;
+}
+
+p {
+  margin-top: 20px;
+  color: #333333;
+}
+
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+}
+
+main {
+  padding: 20px;
+}
