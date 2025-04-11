@@ -18,7 +18,7 @@ function Cervejas() {
 
       <div>
         <ul>
-        <li><strong>Heneken</strong>.</li>
+        <li><strong>Heneken</strong></li>
         <li><strong>Skoll</strong></li>
         <li><strong>Bavaria</strong></li>
         <li><strong>Kaiser</strong></li>

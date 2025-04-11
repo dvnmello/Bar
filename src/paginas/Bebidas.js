@@ -14,7 +14,7 @@ function Bebidas() {
         Opções de Bebidas
       </Typography>
       <Typography variant="body1" component="p">
-        Aqui estão algumas opções de bebidas para você escolher:
+        Aqui estão algumas opções de bebidas para você escolher
       </Typography>
       <Box sx={{ display: "flex", justifyContent: "center", mt: 2 }}>
         <Button component={Link} to="/cervejas" variant="contained" color="primary" sx={{ mr: 2, padding: "10px" }}>Cervejas</Button>
